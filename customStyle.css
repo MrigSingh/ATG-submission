@@ -1,0 +1,70 @@
+.btn {
+    margin: 20px;
+}
+.fa-arrow-left{
+    font-size: 20px;
+    position: absolute;
+    width: 50px;
+}
+.modal-title {
+    font-weight: bold;
+    margin-left: 50px;
+}
+#done {
+    background-color:#0fbb67;
+    color:white;
+    float: right;
+    margin-right: -30px;
+}
+#main-container{
+    margin: 30px;
+    width:500px;
+    height: 370px;
+}
+#cat {
+    border: 0;
+    box-shadow: none;
+    width:300px;
+    height: 40p;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+#des{
+    border: 0;
+    box-shadow: none;
+    background-color: #f5f5f5;
+    width: 400px;
+    border-radius: 10px;
+    resize: none;
+}
+#ticket-btn{
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 40px;
+    width: 50px;
+    background-color: #ebe9e9;
+}
+#ticket-text{
+    border: 0;
+    box-shadow: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    width: 160px;
+    background-color: #f5f5f5;
+}
+#bottom-container{
+    margin-top: 80px;
+}
+.cost{
+    margin-top: 25px;
+    float: left;
+    margin-left: -20px;
+    font-weight: bold;
+}
+#done{
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+}

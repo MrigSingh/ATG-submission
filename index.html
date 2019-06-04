@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ATG Submission</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link rel="stylesheet" href="./customStyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/ad1cc83f85.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Trigger Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <button class="close fa fa-arrow-left" data-dismiss="modal"></button> -->
+              <i data-dismiss="modal" class="fa fa-arrow-left" aria-hidden="true"></i>
+              <h4 class="modal-title">Multiple Tickets</h4>
+        </div>
+        <div class="modal-body">
+          <p style="font-weight: bold; margin-top: 20px;">1.</p>
+          <div id="main-container">
+                <div class="form-group">
+                        <label for="cat">Category?</label>
+                        <input type="text" class="form-control" id="cat" placeholder="Example: Entry, food, or parking etc.">
+                </div>
+                <div class="form-group">
+                    <label for="des">Description</label>
+                    <textarea class="form-control" rows="3" id="des" placeholder="Description"></textarea>
+                </div>
+                <div class="form-group">
+                        <label for="des">Ticket price for this category?</label><br/>
+                        <button id="ticket-btn">&#x20b9; <i class="fa fa-caret-down"></i></button><input id="ticket-text" placeholder="  Price per ticket">
+                </div>
+                <div id="bottom-container">
+                        <p class="cost">Total Cost : &#x20b9;0</p>
+                      <button id="done" type="button" class="btn btn-default" data-dismiss="modal">Done <i id="emoji" class="em em-ok_hand"></i></button>
+                </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+</body>
+</html>
