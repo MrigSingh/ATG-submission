@@ -3,12 +3,11 @@
 }
 .fa-arrow-left{
     font-size: 20px;
-    position: absolute;
-    width: 50px;
 }
 .modal-title {
+    display:inline;
     font-weight: bold;
-    margin-left: 50px;
+    padding-left:20px;  
 }
 #done {
     background-color:#0fbb67;
